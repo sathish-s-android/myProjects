@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Restriction Manger</string>
+    <string name="conditional_access_token">conditional access token</string>
+
+    <string name="enable_feature_title">Enable Feature</string>
+    <string name="enable_feature_description">Toggle to enable or disable the feature</string>
+
+    <string name="max_items_title">Maximum Items</string>
+    <string name="max_items_description">Maximum number of items allowed</string>
+
+    <string name="user_type_title">User Type</string>
+    <string name="user_type_description">Select the type of user</string>
+</resources>

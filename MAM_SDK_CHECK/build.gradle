@@ -1,0 +1,33 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven { url 'https://plugins.gradle.org/m2/' }
+        google()
+
+        maven {
+            url "https://maven.zohodl.com/"
+        }
+    }
+
+    // NOTE: Do not place your application dependencies here; they belong
+    // in the individual module build.gradle files
+    dependencies {
+
+        classpath 'com.android.tools.build:gradle:8.7.1'
+        //kotlin plugins
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.24"
+        classpath "org.jetbrains.kotlin:kotlin-android-extensions:1.9.24"
+
+        classpath "org.javassist:javassist:3.29.2-GA"
+        classpath files("app/MDMSDK/com.microsoft.intune.mam.build.jar")
+
+    }
+}
+
+allprojects {
+    repositories {
+
+        mavenCentral()
+        google()
+    }
+}
